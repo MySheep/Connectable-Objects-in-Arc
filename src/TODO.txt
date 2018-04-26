@@ -1,0 +1,20 @@
+;; ----------------------------------------------------------------------------
+;; ----------------------------------------------------------------------------
+;; TODO
+;; ----------------------------------------------------------------------------
+;; ----------------------------------------------------------------------------
+
+;; 2017-12-18 [x] need also affected-by c affected by (a,b), (a,b) affects c
+;; 2017-12-18 [x] attributes by type is a table with a LIST of attributes
+;; 2017-12-17 [x] Use macros - Tip: Like Template/Generics List<T> 
+;; 2017-12-16 [x] Create a Syntax Highlight for Arc
+;;                see Example at https://github.com/bradrobertson/sublime-packages/tree/master/Lisp
+;;                see Commands at file:///Users/christoph/DevelopSource/2017/Arc31/ArcReference/files.arcfn.com/doc/fnindex.html
+
+;; ----------------------------------------------------------------------------
+;; DONE
+;; ----------------------------------------------------------------------------
+
+;; 2017-12-17 [/] Dirty Propagation
+;; 2017-12-17 [/] Lazy Evaluation 
+;; 2017-12-17 [/] Use of Writeable/Readable
