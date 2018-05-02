@@ -13,6 +13,7 @@ If you set the input to a different value the output get "dirty" and they need
 to be recalculated. Also every objects depent on this output is set dirty. 
 This is called dirty propagation.
 
+```
 ;; ----------------------------------------------------------------------------
 ;; Register type 'adder
 ;; ----------------------------------------------------------------------------
@@ -26,9 +27,11 @@ This is called dirty propagation.
 ;;    --------  
 ;;
 ;; ----------------------------------------------------------------------------
+```
 
 Here you see to "adder" nodes connected together.
 
+```
 ;;     adder1
 ;;    --------
 ;;  -|> a 1   |>-       adder2
@@ -38,7 +41,7 @@ Here you see to "adder" nodes connected together.
 ;;    --------        |  c 0 * |>-----(get-value)
 ;;                    |  d 0 * |>   
 ;; 
-
+```
 
 Arc
 ---
